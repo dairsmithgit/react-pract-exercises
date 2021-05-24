@@ -3,6 +3,8 @@ import logo from './logo.svg';
 import './App.css';
 import { PetInfo } from './components/PetInfo';
 import { UpDownCounter } from './components/UpDownCounter';
+import CoinListItem from './components/CoinListItem';
+import MakeMoney from './components/MakeMoney';
 
 function App() {
   return (
@@ -11,6 +13,7 @@ function App() {
       <UpDownCounter />
       <UpDownCounter />
       <UpDownCounter />
+      <MakeMoney/>
     </div>
   );
 }
