@@ -1,0 +1,13 @@
+.counterThing {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    border: 2px dotted red;
+    width: 50px;
+    text-align: center;
+    padding: 8px;
+}
+
+button {
+    width: 50px;
+}
